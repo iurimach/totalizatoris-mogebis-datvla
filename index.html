@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+       <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+    </head>
+    <body>
+
+        
+        <div class=" description animate__animated animate__bounce" id="colorChangingText"> აპლიკაცია ითვლის ტოტალიზოტირს შემოთავზებულ კუშების მიხევით  თანხის სწორად განაწილების შედეგად თუ  მოიგებ 100 % ით, სამივე პოზიციაზე "(1-x-2)" ან ფრეზე გაყრაზე ( მეორე სვეტი)  </div>
+        <div class="section1">
+
+            <div class=header> 
+                <p > ტოტალიზაორის კოეფიციენტები: </p>
+                <input type="text" id="sasurvelimosagebitanxa" placeholder="რამდენი ლარი გინდა მოიგო? ">
+    
+            </div>
+            <div class="calckulatewrapper"> 
+            <div>  
+                <input type="text" id="inputField" placeholder="აქ 1 გუნდის მოგების კუში">
+                
+            </div>
+            <p id="pirveliresult">null</p>
+            </div>
+
+
+            <div class="calckulatewrapper"> 
+                <div>  
+                    <input type="text" id="input2" placeholder="აქ ფრეზე მოგების კუში  ">
+                </div>
+                <p id="xresult">null</p>
+            </div>
+
+            <div class="calckulatewrapper"> 
+                <div>  
+                    <input type="text" id="input3" placeholder="აქ 2 გუნდის მოგების კუში">
+                    
+                </div>
+                <p id="meoreresult">null</p>
+            </div>
+
+            <div class="jamiwrapper">
+                <button onclick="jami()" class="button-7">calc summ</button>
+                <p class="jami"> null </p>
+                <p class="moigeb01"> null </p>
+                
+    
+            </div>
+            <div class="shedegebisdafa">
+                <p class="shedegi01" > შედეგი :  <p>
+                <p class="prognozi" > პროგნოისთვის შეიყვნე კუშები <p>
+            </div> 
+            
+            
+        </div>
+        
+
+       
+        <!-----აქ იწყება მოერე კოდის ფრეზე გაყრა---------------------------->
+       
+        <div class="section2">
+            <div class=header> 
+                <p > ტოტალიზაორის კოეფიციენტებიი: </p>
+                <p > 10 რო მიიღო უნდა დადო :</p>
+    
+            </div>
+            
+            <div class="section2wrapper1"> 
+                <div>  
+                    <input type="text" id="input4" placeholder="ფრეზე გაყრა 1-ლის კუში ">
+                </div>
+                <p id="frezegayraresult">null</p>
+            </div>
+            <div class="section2wrapper2"> 
+                <div>  
+                    <input type="text" id="input5" placeholder="ფრეზე გაყრა მე-2-ის კუში  ">
+                </div>
+                <p id="frezegayraresult2">null</p>
+            </div>
+        <div>
+
+            <div class="jamiwrapper2">
+                <button onclick="jami2()" class="button-7">calc summ</button>
+                <p class="jami2"> null </p>
+                <p class="prognozi2" >პროგნოისთვის შეიყვნე კუშები <p>
+    
+            </div>
+
+        </div>
+    </div>
+           
+          
+    </div>
+    <script src="1x2.js" async defer></script>
+    <script src="frezegayra.js" async defer></script>
+</body>
+</html>
